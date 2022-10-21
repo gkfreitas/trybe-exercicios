@@ -13,3 +13,20 @@ else if (silvia < iza && silvia < marina) {
 else {
 console.log( `Marina é a pessoa mais jovem e possui ${marina} anos de idade` );
 }
+
+//2. Taxa Metabólica Basal
+
+const age = 25;
+const sex = 'F';
+const weight = 98;
+const height = 1.85;
+let bmr = 0;
+
+if (sex === 'M') {
+  bmr = (height * 6.25) + (weight * 9.99) - (age * 4.92) + 5
+}
+else {
+  bmr = (height * 6.25) + (weight * 9.99) - (age * 4.92) - 161
+}
+
+console.log(`A taxa metabólica basal é: ${bmr} Kcal`)
