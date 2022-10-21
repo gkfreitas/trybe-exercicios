@@ -62,4 +62,28 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // console.log(maiorNumero);
 
+// Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “nenhum valor ímpar encontrado”;
+
+let restos = 0;
+let qntdImpares = 0;
+
+for (let i = 0; i < numbers.length; i += 1) {
+  restos = numbers[i] % 2;
+  if (restos !== 0){
+    qntdImpares = qntdImpares + 1;
+  }
+
+}
+
+if (qntdImpares === 0){
+  console.log('nenhum valor ímpar encontrado')
+}else{
+  console.log(qntdImpares);
+}
+
+
+
+
+
+
 
