@@ -30,3 +30,23 @@ else {
 }
 
 console.log(`A taxa metabólica basal é: ${bmr} Kcal`)
+
+//3. Lanchonete da Trybe
+
+const lanche = 3;
+
+switch (lanche) {
+  case 1: console.log('Trybe Lanche Feliz')
+    break;
+  case 2: console.log('McTrybe')
+    break;
+  case 3: console.log('TrybeWooper')
+    break;
+  case 4: console.log('X-Trybe')
+    break;
+  case 5: console.log('Triplo Trybe com JS')
+    break;
+
+  default:
+    break;
+}
