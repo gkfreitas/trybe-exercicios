@@ -10,11 +10,9 @@
 //Salvar o resultado da primeira multiplicacao e multiplicar pelo proximo
 //salvar o primeiro resultado e multiplicar pelo proximo numero
 
-let fatorial = 1;
+// let fatorial = 1;
 
-for (let i = 10; i > 0; i -= 1){
-  fatorial = fatorial * i;
-  console.log(fatorial);
-}
-
-
+// for (let i = 10; i > 0; i -= 1){
+//   fatorial = fatorial * i;
+//   console.log(fatorial);
+// }
