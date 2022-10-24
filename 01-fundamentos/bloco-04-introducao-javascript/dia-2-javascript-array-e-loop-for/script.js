@@ -62,4 +62,49 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // console.log(maiorNumero);
 
+// Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “nenhum valor ímpar encontrado”;
+
+// let restos = 0;
+// let qntdImpares = 0;
+
+// for (let i = 0; i < numbers.length; i += 1) {
+//   restos = numbers[i] % 2;
+//   if (restos !== 0){menorValor < numbers[i]
+
+// Utilizando for, descubra qual o menor valor contido no array e imprima-o;
+
+// let menorValor = numbers[0];
+
+// for (let i = 0; i < numbers.length; i += 1) {
+//   if (numbers[i] < menorValor){
+//     menorValor = numbers[i];
+    
+//   }
+// }
+
+// console.log(menorValor);
+
+// Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
+
+let array = [];
+
+for (let adiciona = 1; adiciona <= 25; adiciona += 1){
+  array.push(adiciona);
+}
+
+//console.log(array);
+
+
+
+//Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
+
+let resultado = [];
+
+for (let i = 0; i < array.length; i += 1){
+  resultado.push(array[i] / 2);
+  console.log(resultado[i]);
+}
+
+
+
 
