@@ -29,4 +29,26 @@
 
 // console.log(reverseWord);
 
+//Utilize a estrutura de repetição for para escrever dois algoritmos: um que retorne a maior palavra desse array e outro que retorne a menor. 
+//Considere o número de caracteres de cada palavra.
+//Um número primo é um número inteiro maior do que 1 que possui somente dois divisores, ou seja, é divisível por 1 e por ele mesmo. 
+//Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 2 e 50.
+
+
 let array = ['java', 'javascript', 'python', 'html', 'css'];
+let maiorPalavra = array[0].length;
+let menorPalavra = array[0].length;
+
+for (let i = 0; i < array.length; i+= 1){
+  if (array[i].length > maiorPalavra){
+    maiorPalavra = array[i];
+  }
+}
+
+for (let i = 0; i < array.length; i+= 1){
+  if (array[i].length < menorPalavra){
+    menorPalavra = array[i];
+  }
+}
+console.log(menorPalavra);
+console.log(maiorPalavra);
