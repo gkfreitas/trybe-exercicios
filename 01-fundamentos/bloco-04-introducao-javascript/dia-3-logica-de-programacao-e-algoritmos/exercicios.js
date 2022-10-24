@@ -58,11 +58,31 @@ const number = 50;
 const nPrimos = [2, 3, 5, 7];
 let maiorNumero = 0;
 
-  for (let ic = 2; ic <= number; ic+= 1){
+  for (let ic = 2; ic <= number; ic+= 1) {
     if (ic % 2 !== 0 && ic % 3 !== 0 && ic % 5 !== 0 && ic % 7 !== 0){
       console.log('Numeros primos: ' + ic);
     }
 }
+
+for (let i = 2; i <= 50; i += 1) {
+  if (i % i === 0)
+}
+
+let biggestPrimeNumber = 0;
+
+for (let currentNumber = 2; currentNumber <= 50; currentNumber += 1) {
+  let isPrime = true;
+  for (let currentDivisor = 2; currentDivisor < currentNumber; currentDivisor += 1) {
+    if (currentNumber % currentDivisor === 0) {
+      isPrime = false;
+    }
+  }
+  if (isPrime) {
+    biggestPrimeNumber = currentNumber;
+  }
+}
+
+console.log(biggestPrimeNumber);
 
 
 
