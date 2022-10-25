@@ -26,5 +26,5 @@ let names = {
 };
 
 for (let key in names){
-	console.log(key);
+	console.log(`Olá ${names[key]}`);
 }
