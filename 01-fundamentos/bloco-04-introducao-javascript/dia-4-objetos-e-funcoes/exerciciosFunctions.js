@@ -99,4 +99,4 @@ function triangulo(){
   }
 }
 
-console.log(triangulo);
+console.log(triangulo());
