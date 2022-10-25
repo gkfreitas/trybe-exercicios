@@ -7,17 +7,25 @@
 // verificaPalindrome('desenvolvimento')
 // Retorno esperado: false
 
-let palindromoTrue = ''; 
-function verificaPalindrome(palindromo){
-		for (let i = 0; i < palindromo.length; i += 1) {
-			palindromoTrue += palindromo[palindromo.length - 1 - i];
-	}
-	if (palindromo == palindromoTrue){
-		return true;
-	}else{
-		return false;
-	}
-} 
+// let palindromoTrue = ''; 
+// function verificaPalindrome(palindromo){
+// 		for (let i = 0; i < palindromo.length; i += 1) {
+// 			palindromoTrue += palindromo[palindromo.length - 1 - i];
+// 	}
+// 	if (palindromo == palindromoTrue){
+// 		return true;
+// 	}else{
+// 		return false;
+// 	}
+// } 
 
-console.log(verificaPalindrome('cabeca'));
-  
+
+// console.log(verificaPalindrome('cabeca'));
+
+// Exercicio 2 -
+
+// Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+// Array de teste: [2, 3, 6, 7, 10, 1];.
+// Valor esperado no retorno da função: 4.
+
+
