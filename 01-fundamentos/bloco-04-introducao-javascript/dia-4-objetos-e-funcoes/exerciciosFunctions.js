@@ -50,5 +50,17 @@
 // Array de teste: [2, 4, 6, 7, 10, 0, -3];.
 // Valor esperado no retorno da função: 6.
 
+function menorNumero(index){
 
+	let menorValor = index[0];
 
+	for (i = 0; i < index.length; i += 1) {
+
+		if (menorValor > index[i]){
+			menorValor = index[i];
+		}
+	}
+	return menorValor;
+}
+
+console.log(menorNumero([2, 4, 6, 7, 10, 0, -3]));
