@@ -69,14 +69,34 @@
 //Faça um programa que, dado um valor recebido como parâmetro, retorne “positive” se esse valor for positivo, “negative” se for negativo, 
 //e caso não seja nem positivo e nem negativo retorne “zero”.
 
-function avaliador(numero) {
-  if (numero > 0){
-    return 'Número positivo'
-  }else if (numero < 0){
-    return 'Número negativo'
+// function avaliador(numero) {
+//   if (numero > 0){
+//     return 'Número positivo'
+//   }else if (numero < 0){
+//     return 'Número negativo'
+//   }else{
+//     return 'Zero, numero neutro'
+//   }
+// }
+
+// console.log(avaliador(0))
+
+//Faça um programa que receba três constantes com os valores dos três ângulos internos de um triângulo. 
+// Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. 
+// Se algum ângulo for inválido, o programa deve retornar uma mensagem de erro.
+
+const ang1 = 80;
+const ang2 = 80;
+const ang3 = 20;
+
+function triangulo(){
+  if (ang1 + ang2 + ang3 == 180){
+    return true;
+  }else if (ang1 <= 0 || ang2 <= 0 || ang3 <= 0){
+    return 'Mensagem de erro';
   }else{
-    return 'Zero, numero neutro'
+    return false;
   }
 }
 
-console.log(avaliador(0))
+console.log(triangulo);
