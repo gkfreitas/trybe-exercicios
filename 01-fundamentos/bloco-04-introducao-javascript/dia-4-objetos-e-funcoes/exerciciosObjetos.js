@@ -59,25 +59,42 @@
 // Namorada do personagem principal nos quadrinhos do Pato Donald e O último MacPatinhas
 // Ambos recorrentes // Atenção para essa última linha!
 
-let info = {
-  personagem: 'Margarida',
-  origem: 'Pato Donald',
-  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
-  recorente: 'sim'
-};
+// let info = {
+//   personagem: 'Margarida',
+//   origem: 'Pato Donald',
+//   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+//   recorente: 'sim'
+// };
 
-let info2 = {
-  personagem: 'Tio Patinhas',
-  origem: 'Christmas on Bear Mountain, Dell’s Four Color Comics #178',
-  nota: 'O último MacPatinhas',
-  recorente: 'sim'
-};
+// let info2 = {
+//   personagem: 'Tio Patinhas',
+//   origem: 'Christmas on Bear Mountain, Dell’s Four Color Comics #178',
+//   nota: 'O último MacPatinhas',
+//   recorente: 'sim'
+// };
 
-for (let index in info, info2) {
-  if (info[index] !== info2[index]){
-    console.log(info[index] + ' e '+ info2[index]);
-  }
-  if (info[index] == info2[index]) {
-    console.log('Ambos recorrentes')
-  }
-}
+// for (let index in info, info2) {
+//   if (info[index] !== info2[index]){
+//     console.log(info[index] + ' e '+ info2[index]);
+//   }
+//   if (info[index] == info2[index]) {
+//     console.log('Ambos recorrentes')
+//   }
+// }
+
+// Acesse as chaves nome, sobrenome e titulo, que está dentro da chave livrosFavoritos, e faça um console.log no seguinte formato: 
+//“O livro favorito de Julia Pessoa se chama ‘O Pior Dia de Todos’”.
+//Adicione um novo livro favorito na chave livrosFavoritos, que é um array. Atribua a essa chave um objeto contendo as seguintes informações:
+
+let leitor = {
+  nome: 'Julia',
+  sobrenome: 'Pessoa',
+  idade: 21,
+  livrosFavoritos: [
+    {
+      titulo: 'O Pior Dia de Todos',
+      autor: 'Daniela Kopsch',
+      editora: 'Tordesilhas',
+    },
+  ],
+};
