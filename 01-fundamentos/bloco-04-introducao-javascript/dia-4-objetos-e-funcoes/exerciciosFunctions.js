@@ -28,17 +28,27 @@
 // Array de teste: [2, 3, 6, 7, 10, 1];.
 // Valor esperado no retorno da função: 4.
 
-function maiorNumero(index){
+// function maiorNumero(index){
 
-	let maiorValor = index[0];
+// 	let maiorValor = index[0];
 
-	for (i = 0; i < index.length; i += 1) {
+// 	for (i = 0; i < index.length; i += 1) {
 
-		if (maiorValor < index[i]){
-			maiorValor = index[i];
-		}
-	}
-	return maiorValor;
-}
+// 		if (maiorValor < index[i]){
+// 			maiorValor = index[i];
+// 		}
+// 	}
+// 	return maiorValor;
+// }
 
-console.log(maiorNumero([489, 789, 489, 2165, 1748, 156, 78749, 123]));
+// console.log(maiorNumero([2, 3, 6, 7, 10, 1]));
+
+
+// Exercicio - 3
+
+// Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
+// Array de teste: [2, 4, 6, 7, 10, 0, -3];.
+// Valor esperado no retorno da função: 6.
+
+
+
