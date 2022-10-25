@@ -30,3 +30,18 @@
 // }
 
 //Faça um programa que retorne o maior de dois números. Defina, no começo do programa, duas constantes com os valores que serão comparados.
+
+const n1 = 37;
+const n2 = 58;
+
+function maiorNumero() {
+    if (n1 > n2){
+        return n1 + ' é o maior número.';
+    }else if(n2 > n1){
+        return n2 + ' é o maior número';
+    }else{
+        return 'Os números são iguais';
+    }
+}
+
+console.log(maiorNumero());
