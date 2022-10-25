@@ -70,3 +70,23 @@
 // Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
 // Array de teste: ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];.
 // Valor esperado no retorno da função: Fernanda.
+
+// function maiorPalavra(index){
+
+// 	let maiorValor = index[0].length;
+// 	let maiorPalavra2 = '';
+
+// 	for (i = 0; i < index.length; i += 1) {
+
+// 		if (maiorValor < index[i].length){
+// 			maiorValor = index[i].length;
+// 		}
+// 		if (maiorValor == index[i].length){
+// 			maiorPalavra2 = index[i]; 
+// 		}
+// 	}
+
+// 	return maiorPalavra2;
+// }
+
+// console.log(maiorPalavra(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
