@@ -48,3 +48,20 @@
 
 //Faça um programa que retorne o maior de três números. Defina, no começo do programa, três constantes com os valores que serão comparados.
 
+// const n1 = 37;
+// const n2 = 780;
+// const n3 = 71;
+
+// function maiorNumero() {
+//     if (n1 > n2 && n1 > n3){
+//         return n1 + ' é o maior número.';
+//     }else if(n2 > n1 && n2 > n3){
+//         return n2 + ' é o maior número';
+//     }else if(n3 > n1 && n3 > n2){
+//         return n3 + ' é o maior número';
+//     }else{
+//         return 'Todos os numeros são iguais';
+//     }
+// }
+
+// console.log(maiorNumero());
