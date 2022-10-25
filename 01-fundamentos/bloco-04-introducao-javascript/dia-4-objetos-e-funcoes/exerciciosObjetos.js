@@ -98,3 +98,7 @@ let leitor = {
     },
   ],
 };
+
+let favoritos = leitor.livrosFavoritos[0];
+
+console.log('O livro favorito de ' + leitor.nome + ' ' + leitor.sobrenome + ' se chama ' + favoritos['titulo']);
