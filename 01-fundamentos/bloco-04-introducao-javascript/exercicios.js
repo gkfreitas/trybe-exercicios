@@ -30,6 +30,7 @@
 // console.log(numeroAleatorio());
 
 // Exercicio 3 -
+// 🚀 Transforme a função hello em uma arrow function;
 
 // const hello = (nome) => `Olá ${nome}`;
 
@@ -37,9 +38,24 @@
 // console.log(hello(nome));
 
 // Exercicio 4 -
+// 🚀 Transforme a função nomeCompleto em uma arrow function;
 
-const nomeCompleto = (nome, sobrenome) => `${nome} ${sobrenome}`;
-let nome = 'Ivan';
-let sobrenome = 'Pires';
 
-console.log(nomeCompleto(nome, sobrenome));
+// const nomeCompleto = (nome, sobrenome) => `${nome} ${sobrenome}`;
+// let nome = 'Ivan';
+// let sobrenome = 'Pires';
+
+// console.log(nomeCompleto(nome, sobrenome));
+
+// Exercicio 5 -
+//Altere a expressão if/else utilizando ternary operator;
+
+let speed = 90;
+    const speedCar = (speed) => {
+      if (speed >= 120) {
+        return `Você ultrapassou o limite de velocidade`;
+      } else {
+        return `Você está na velocidade permitida`;
+      }
+    };
+    console.log(speedCar(speed));
