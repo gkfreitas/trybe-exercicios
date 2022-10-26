@@ -93,27 +93,42 @@
 
 // Exercicio - 5
 
-// RESOLVER DEPOIS!!!!
+
 
 // Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
 // Array de teste: [2, 3, 2, 5, 8, 2, 3];.
 // Valor esperado no retorno da função: 2
 
-// const arrayT = [2, 3, 2, 5, 8, 2, 3]
-// let valorRepitido = arrayT[0];
-// let contagem = 0;
+function contador(arrayT) {
+  let contagemN = 0;
+  let arrayN = 0;
 
-// for (i = 0; i < arrayT.length; i += 1) {
-// 	if (arrayT[i] % valorRepitido !== 0) {
-// 		valorRepitido = arrayT;
-// 		console.log(valorRepitido);
-// 	}
-// }
+  for (let i = 0; i < arrayT.length; i += 1) {
+    let contagem = 0;
+    let number = arrayT[i];
+      for (let i2 = 0; i2 < arrayT.length; i2 += 1) {
+        if (number == arrayT[i2]) {
+          contagem += 1;
+        }
+      }
+    if (contagem > contagemN) {
+      contagemN = contagem;
+      arrayN = number;
+    }
+  }
 
-// RESOLVER DEPOIS!!!!
+  return arrayN + ' contagem: ' + contagemN;
 
-// Exercicio 6 -
+}
 
-// Crie uma função que receba um número natural (número inteiro não negativo) N e retorne o somatório de todos os números de 1 até N.
-// Valor de teste: N = 5.
-// Valor esperado no retorno da função: 1+2+3+4+5 = 15.
+console.log(contador([2, 4, 2, 5, 8, 2, 3, 4, 4, 4, 4]));
+
+
+
+
+
+
+
+
+
+
