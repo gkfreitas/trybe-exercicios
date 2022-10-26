@@ -31,8 +31,16 @@
 
 // Exercicio 3 -
 
-const hello = (nome) => `Olá ${nome}`;
+// const hello = (nome) => `Olá ${nome}`;
 
+// let nome = 'Ivan';
+// console.log(hello(nome));
+
+// Exercicio 4 -
+
+function nomeCompleto(nome, sobrenome) {
+  return `${nome} ${sobrenome}`
+}
 let nome = 'Ivan';
-console.log(hello(nome))
-
+let sobrenome = 'Pires';
+console.log(nomeCompleto(nome, sobrenome));
