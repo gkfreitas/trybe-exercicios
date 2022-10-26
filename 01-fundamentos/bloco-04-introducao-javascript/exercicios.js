@@ -25,7 +25,11 @@
 
 // 🚀 Transforme a função numeroAleatorio em uma arrow function;
 
-const numeroAleatorio = () => Math.random();
+// const numeroAleatorio = () => Math.random();
 
-console.log(numeroAleatorio());
+// console.log(numeroAleatorio());
+
+// Exercicio 3 -
+
+
 
