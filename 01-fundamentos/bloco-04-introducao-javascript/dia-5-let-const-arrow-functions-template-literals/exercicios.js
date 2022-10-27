@@ -95,11 +95,16 @@
 // Parâmetro: 5
 // Retorno: Essa é a área do círculo: 78.5
 
-let pi = 3.14;
+// let pi = 3.14;
 
-const calcCirculo = (raio) => {
-  area = pi * (raio ** 2);
-  return area;
-}
+// const calcCirculo = (raio) => {
+//   area = pi * (raio ** 2);
+//   return area;
+// }
 
-console.log(`Essa é a área do circulo: ${calcCirculo(5)}`)
+// console.log(`Essa é a área do circulo: ${calcCirculo(5)}`)
+
+// Exercicio 8 -
+
+// 🚀 Crie uma função que receba uma frase como parâmetro e retorne a maior palavra da frase.
+
