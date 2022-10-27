@@ -80,6 +80,8 @@
 // console.log(`O motor está ${ligaDesliga()}`);
 // console.log(`O motor está ${ligaDesliga()}`);
 
+// Exercicio 7 -
+
 // Crie uma função que calcule a área de um círculo.
 // Na matemática, a fórmula para calcular a área de um círculo é: área = PI vezes o raio elevado ao quadrado.
 // Com base nessa informação:
@@ -93,4 +95,11 @@
 // Parâmetro: 5
 // Retorno: Essa é a área do círculo: 78.5
 
+let pi = 3.14;
 
+const calcCirculo = (raio) => {
+  area = pi * (raio ** 2);
+  return area;
+}
+
+console.log(`Essa é a área do circulo: ${calcCirculo(5)}`)
