@@ -108,3 +108,11 @@
 
 // 🚀 Crie uma função que receba uma frase como parâmetro e retorne a maior palavra da frase.
 
+const longestWord = (frase) => {
+  let fraseSplit = [];
+  fraseSplit = frase.split(" ");
+  
+  return fraseSplit[fraseSplit.length -1];
+}
+
+console.log(longestWord('Antônio foi no banheiro e não sabemos o que aconteceu'))
