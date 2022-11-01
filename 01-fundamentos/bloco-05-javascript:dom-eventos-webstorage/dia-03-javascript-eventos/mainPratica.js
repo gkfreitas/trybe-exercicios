@@ -13,8 +13,8 @@ const techLi = document.querySelector('.tech');
 //  - Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?
 
 techLi.addEventListener("click", clickTech);
-function clickTech() {
-  techLi.classList.toggle('tech');
+function clickTech(event) {
+  event.target.classList.toggle('tech');
 }
  
 // - Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
@@ -37,14 +37,12 @@ myWebpage.addEventListener("dblclick", redireciona);
 
 // - Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
-function mudaCor() {
-  myWebpage.style.color = "red";
-  
-  	
+function mudaCor(event) {
+  event.target.style.color = "red";
 }
 
-function mantemCor() {
-  myWebpage.style.color = "white";
+function mantemCor(event) {
+  event.target.style.color = "white";
 }
 
 
