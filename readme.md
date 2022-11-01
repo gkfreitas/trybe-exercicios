@@ -31,4 +31,4 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 4.3 - JavaScript - Lógica de Progamação e Algoritmos
 - [X] 4.4 - JavaScript - Objetos e funções
 - [X] 4.5 - JavaScript ES6 - let, const, arrrow functions e template literals
-- [ ] 4.6 - Projeto - Playground Functions
+- [X] 4.6 - Projeto - Playground Functions
