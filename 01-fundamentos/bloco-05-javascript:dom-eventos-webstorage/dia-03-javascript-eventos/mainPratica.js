@@ -3,6 +3,7 @@ const secondLi = document.getElementById('second-li');
 const thirdLi = document.getElementById('third-li');
 const input = document.getElementById('input');
 const myWebpage = document.getElementById('my-spotrybefy');
+const techLi = document.querySelector('.tech');
 
 
 // - Copie esse arquivo e edite apenas ele;
@@ -11,17 +12,28 @@ const myWebpage = document.getElementById('my-spotrybefy');
 // - Crie uma função que adicione a classe 'tech' ao elemento `li` quando for clicado.
 //  - Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?
 
-firstLi.addEventListener("click", clickTech);
+techLi.addEventListener("click", clickTech);
 function clickTech() {
-  firstLi.classList.toggle('tech');
+  techLi.classList.toggle('tech');
 }
  
 // - Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
 
+function mudaTexto() {
+  techLi.innerText = input.value;
+}
+input.addEventListener("keyup", mudaTexto);
+
 // - Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
 //  - Que tal redirecionar para seu portfólio?
+function redireciona() {
+  window.location.assign('https://gkfreitas.github.io/');
+}
+myWebpage.addEventListener("dblclick", redireciona);
+
+
 
 // - Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
