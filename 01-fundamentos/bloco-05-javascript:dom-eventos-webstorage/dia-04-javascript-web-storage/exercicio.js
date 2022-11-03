@@ -11,7 +11,29 @@ buttonBackground.addEventListener("click", (event) => {
   text.style.backgroundColor = eventValue;
 });
 
+buttonColor.addEventListener("click", (event) => {
+  const eventTarget = event.target;
+  const eventValue = eventTarget.innerHTML;
+  text.style.color = eventValue;
+});
 
+buttonFontSize.addEventListener("click", (event) => {
+  const eventTarget = event.target;
+  const eventValue = eventTarget.innerHTML;
+  text.style.fontSize = eventValue;
+});
+
+buttonLineHeight.addEventListener("click", (event) => {
+  const eventTarget = event.target;
+  const eventValue = eventTarget.innerHTML;
+  text.style.lineHeight = eventValue;
+});
+
+buttonFontFamily.addEventListener("click", (event) => {
+  const eventTarget = event.target;
+  const eventValue = eventTarget.innerHTML;
+  text.style.fontFamily = eventValue;
+});
 
 
 
