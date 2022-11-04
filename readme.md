@@ -39,8 +39,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 5.2 - JavaScript - Trabalhando com elementos
 - [X] 5.3 - JavaScript - Eventos
 - [X] 5.4 - JavaScript - Web Storage
-- [X] 5.5 - Projeto - Arte com Pixels
-- [X] 5.6 - Projeto - Projetos Bônus
+- [] 5.5 - Projeto - Arte com Pixels
+- [] 5.6 - Projeto - Projetos Bônus
 
 ##### Bloco 6: HTML & CSS - Form
 
