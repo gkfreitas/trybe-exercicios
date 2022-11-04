@@ -64,6 +64,19 @@
     const colorMain = document.getElementsByClassName('center-content')[0];
     colorMain.style.backgroundColor = 'white';
 
+    const tagH1 = document.getElementsByTagName('h1')[0];
+    tagH1.innerText = 'Exercício - JavaScript'
+
+    const p1 =  document.getElementsByTagName('p')[0];
+    p1.style.textTransform = 'uppercase';
+
+    const p = document.getElementsByTagName('p');
+    for (i = 0; i < p.length; i += 1) {
+      console.log(p[i].innerHTML);
+    }
+    
+    
+
     </script>
   </body>
 </html>
