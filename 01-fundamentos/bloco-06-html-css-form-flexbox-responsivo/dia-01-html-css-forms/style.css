@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: rgb(80, 80, 80);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+form {
+  border: 2px solid black;
+  width: 500px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.clear {
+clear: both;
+}
+
+.label-text {
+  display: block;
+  padding-top: 8px;
+  width: 210px;
+}
+
+.label-text input {
+  max-width: 150px;
+  float: right;
+}
+
+.label-radio {
+  padding: 10px 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.label-textarea p {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.label-textarea textarea {
+  box-sizing: content-box;
+  resize: none;
+  width: 300px;
+}
+
+.label-data {
+  margin-top: 10px;
+}
+
+.label-data input {
+  cursor: pointer;
+}
+
+.label-checkbox {
+  margin-top: 10px;
+}
+
+.label-checkbox input {
+  width: 18px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.buttons {
+  margin: 10px auto;
+  width: 500px;
+}
+
+.buttons button {
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
