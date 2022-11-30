@@ -1,3 +1,41 @@
+
+
+// Adicione o código do exercício aqui:
+
+// const expectedResult1 = [
+//   'As Crônicas de Gelo e Fogo - Fantasia - George R. R. Martin',
+//   'O Senhor dos Anéis - Fantasia - J. R. R. Tolkien',
+//   'Fundação - Ficção Científica - Isaac Asimov',
+//   'Duna - Ficção Científica - Frank Herbert',
+//   'A Coisa - Terror - Stephen King',
+//   'O Chamado de Cthulhu - Terror - H. P. Lovecraft',
+// ];
+
+// const formatedBookNames = () => {
+//   // escreva seu código aqui
+//   return books.map((element) => {
+//     return `${element.name} - ${element.genre} - ${element.author.name}`
+//   });
+// }
+
+// console.log(formatedBookNames());
+
+// const expectedResult2 = [
+//   'George R. R. Martin - 1948',
+//   'J. R. R. Tolkien - 1892',
+//   'Isaac Asimov - 1920',
+//   'Frank Herbert - 1920',
+//   'Stephen King - 1947',
+//   'H. P. Lovecraft - 1890',
+// ];
+
+// const formatedAuthorNamesBirth = () => {
+//   // escreva seu código aqui
+//   return books.map((element) => {
+//     return `${element.author.name} - ${element.author.birthYear}`
+//   });
+// }
+
 const books = [
   {
     id: 1,
@@ -61,17 +99,41 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
-
 const expectedResult = [
-  'As Crônicas de Gelo e Fogo - Fantasia - George R. R. Martin',
-  'O Senhor dos Anéis - Fantasia - J. R. R. Tolkien',
-  'Fundação - Ficção Científica - Isaac Asimov',
-  'Duna - Ficção Científica - Frank Herbert',
-  'A Coisa - Terror - Stephen King',
-  'O Chamado de Cthulhu - Terror - H. P. Lovecraft',
+  {
+    author: 'Isaac Asimov',
+    age: 31,
+  },
+  {
+    author: 'H. P. Lovecraft',
+    age: 38,
+  },
+  {
+    author: 'Stephen King',
+    age: 39,
+  },
+  {
+    author: 'George R. R. Martin',
+    age: 43,
+  },
+  {
+    author: 'Frank Herbert',
+    age: 45,
+  },
+  {
+    author: 'J. R. R. Tolkien',
+    age: 62,
+  },
 ];
 
-const formatedBookNames = () => {
+const nameAndAge = () => {
   // escreva seu código aqui
+  return books.map((element) => {
+    return {
+      author: element.author.name, 
+      age: element.releaseYear - element.author.birthYear
+    };
+  });
 }
+
+console.log(nameAndAge().sort((a,b) => a.age - b.age));
