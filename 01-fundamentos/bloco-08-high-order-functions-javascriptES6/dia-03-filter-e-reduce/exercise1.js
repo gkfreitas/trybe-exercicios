@@ -162,18 +162,30 @@ const books = [
 
 // console.log(fantasyOrScienceFictionAuthors());
 
-const expectedResult = [
-  'O Senhor dos Anéis',
-  'Fundação',
-  'O Chamado de Cthulhu',
-];
+// const expectedResult = [
+//   'O Senhor dos Anéis',
+//   'Fundação',
+//   'O Chamado de Cthulhu',
+// ];
 
-const oldBooks = () => {
-  // escreva seu código aqui
-  const filterAge = books.filter((element) => {
-    const bookAge = 2022 - element.releaseYear;
-    return bookAge > 60;
-    });
-  return filterAge.map((element) => element.name);
-}
-console.log(oldBooks());
+// const oldBooks = () => {
+//   // escreva seu código aqui
+//   const filterAge = books.filter((element) => {
+//     const bookAge = 2022 - element.releaseYear;
+//     return bookAge > 60;
+//     });
+//   return filterAge.map((element) => element.name);
+// }
+// console.log(oldBooks());
+
+// const expectedResult = 'O Senhor dos Anéis';
+
+// const authorWith3DotsOnName = () => {
+//   // escreva seu código aqui
+//   const bookFind = books.find((element) => {
+//     return element.author.name === 'J. R. R. Tolkien';
+//   });
+//   return bookFind.name;
+// }
+
+// console.log(authorWith3DotsOnName());
