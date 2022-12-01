@@ -146,18 +146,34 @@ const books = [
 // const result = booksByAuthorBirthYear(1920);
 // console.log(result);
 
+// const expectedResult = [
+//   'Frank Herbert',
+//   'George R. R. Martin',
+//   'Isaac Asimov',
+//   'J. R. R. Tolkien',
+// ];
+
+// const fantasyOrScienceFictionAuthors = () => {
+//   // escreva seu código aqui
+//   const filterGenre = books.filter((element) => element.genre === 'Ficção Científica' || element.genre === 'Fantasia');
+//   const namePerGenre = filterGenre.map((element) => element.author.name);
+//   return namePerGenre.sort();
+// }
+
+// console.log(fantasyOrScienceFictionAuthors());
+
 const expectedResult = [
-  'Frank Herbert',
-  'George R. R. Martin',
-  'Isaac Asimov',
-  'J. R. R. Tolkien',
+  'O Senhor dos Anéis',
+  'Fundação',
+  'O Chamado de Cthulhu',
 ];
 
-const fantasyOrScienceFictionAuthors = () => {
+const oldBooks = () => {
   // escreva seu código aqui
-  const filterGenre = books.filter((element) => element.genre === 'Ficção Científica' || element.genre === 'Fantasia');
-  const namePerGenre = filterGenre.map((element) => element.author.name);
-  return namePerGenre.sort();
+  const filterAge = books.filter((element) => {
+    const bookAge = 2022 - element.releaseYear;
+    return bookAge > 60;
+    });
+  return filterAge.map((element) => element.name);
 }
-
-console.log(fantasyOrScienceFictionAuthors());
+console.log(oldBooks());
