@@ -259,12 +259,22 @@ const countries = [
   }
 ];
 
-const expectedResult = 120797034;
+// const expectedResult = 120797034;
 
-const getPopulation = () => {
- // retorne o seu código aqui
- const mapPopulation = countries.map((element) => element.population)
- return mapPopulation.reduce((acc, curr) => acc + curr);
+// const getPopulation = () => {
+//  // retorne o seu código aqui
+//  const mapPopulation = countries.map((element) => element.population)
+//  return mapPopulation.reduce((acc, curr) => acc + curr);
+// }
+
+// console.log(getPopulation());
+
+const expectedResult = 4311757;
+
+const getTotalArea = () => {
+// retorne seu código aqui
+const mapArea = countries.map((element) => element.area);
+return mapArea.reduce((acc, curr) => acc + curr);
 }
 
-console.log(getPopulation());
+console.log(getTotalArea());
