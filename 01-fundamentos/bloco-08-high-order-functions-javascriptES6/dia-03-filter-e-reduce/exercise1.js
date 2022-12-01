@@ -269,12 +269,46 @@ const countries = [
 
 // console.log(getPopulation());
 
-const expectedResult = 4311757;
+// const expectedResult = 4311757;
 
-const getTotalArea = () => {
-// retorne seu código aqui
-const mapArea = countries.map((element) => element.area);
-return mapArea.reduce((acc, curr) => acc + curr);
-}
+// const getTotalArea = () => {
+// // retorne seu código aqui
+// const mapArea = countries.map((element) => element.area);
+// return mapArea.reduce((acc, curr) => acc + curr);
+// }
 
-console.log(getTotalArea());
+// console.log(getTotalArea());
+
+// const expectedResult = {
+//   name: 'American Samoa',
+//   region: 'Oceania',
+//   currencies: [{ code: 'USD', name: 'United States Dollar' }],
+//   capital: 'Pago Pago',
+//   population: 55197,
+//   area: 199
+// }
+
+// const longestName = () => {
+//   // retorne seu código aqui
+//   return countries.reduce((acc, cur) =>  acc.name.length > cur.name.length ? acc : cur);
+// }
+
+// console.log(longestName());
+
+// const names = [
+//   'Aanemarie', 'Adervandes', 'Akifusa',
+//   'Abegildo', 'Adicellia', 'Aladonata',
+//   'Abeladerco', 'Adieidy', 'Alarucha',
+// ];
+
+// const expectedResult = 20;
+
+// const countA = () => {
+//   // retorne seu código aqui
+//   const joinNames = names.join('').toLowerCase();
+//   const splitNames = joinNames.split('');
+//   const splitNamesFilter = splitNames.filter((element) => element === 'a');
+//   return splitNamesFilter.length;
+// };
+
+// console.log(countA());
