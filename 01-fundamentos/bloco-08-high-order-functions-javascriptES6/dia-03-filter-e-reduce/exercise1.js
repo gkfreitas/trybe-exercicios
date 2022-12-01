@@ -101,37 +101,63 @@ const books = [
 
 // console.log(fantasyOrScienceFiction(books));
 
+// const expectedResult = [
+//   {
+//     id: 6,
+//     name: 'O Chamado de Cthulhu',
+//     genre: 'Terror',
+//     author: { name: 'H. P. Lovecraft', birthYear: 1890 },
+//     releaseYear: 1928,
+//   },
+//   {
+//     id: 3,
+//     name: 'Fundação',
+//     genre: 'Ficção Científica',
+//     author: { name: 'Isaac Asimov', birthYear: 1920 },
+//     releaseYear: 1951,
+//   },
+//   {
+//     id: 2,
+//     name: 'O Senhor dos Anéis',
+//     genre: 'Fantasia',
+//     author: { name: 'J. R. R. Tolkien', birthYear: 1892 },
+//     releaseYear: 1954,
+//   },
+// ];
+
+// const oldBooksOrdered = (array) => {
+//   // escreva seu código aqui
+//   const filterAge = array.filter((element) => {
+//     const bookAge = 2022 - element.releaseYear;
+//     return bookAge > 60;
+//   });
+//   return filterAge.sort((a,b) => a.releaseYear - b.releaseYear)
+// }
+
+// console.log(oldBooksOrdered(books));
+
+// const expectedResult = [ 'Fundação', 'Duna' ];
+
+// const booksByAuthorBirthYear = (birthYear) => {
+//   // escreva seu código aqui
+//   const filterBook = (books.filter((element) => element.author.birthYear === birthYear));
+//   return filterBook.map((element) => element.name);
+// }
+// const result = booksByAuthorBirthYear(1920);
+// console.log(result);
+
 const expectedResult = [
-  {
-    id: 6,
-    name: 'O Chamado de Cthulhu',
-    genre: 'Terror',
-    author: { name: 'H. P. Lovecraft', birthYear: 1890 },
-    releaseYear: 1928,
-  },
-  {
-    id: 3,
-    name: 'Fundação',
-    genre: 'Ficção Científica',
-    author: { name: 'Isaac Asimov', birthYear: 1920 },
-    releaseYear: 1951,
-  },
-  {
-    id: 2,
-    name: 'O Senhor dos Anéis',
-    genre: 'Fantasia',
-    author: { name: 'J. R. R. Tolkien', birthYear: 1892 },
-    releaseYear: 1954,
-  },
+  'Frank Herbert',
+  'George R. R. Martin',
+  'Isaac Asimov',
+  'J. R. R. Tolkien',
 ];
 
-const oldBooksOrdered = (array) => {
+const fantasyOrScienceFictionAuthors = () => {
   // escreva seu código aqui
-  const filterAge = array.filter((element) => {
-    const bookAge = 2022 - element.releaseYear;
-    return bookAge > 60;
-  });
-  return filterAge.sort((a,b) => a.releaseYear - b.releaseYear)
+  const filterGenre = books.filter((element) => element.genre === 'Ficção Científica' || element.genre === 'Fantasia');
+  const namePerGenre = filterGenre.map((element) => element.author.name);
+  return namePerGenre.sort();
 }
 
-console.log(oldBooksOrdered(books));
+console.log(fantasyOrScienceFictionAuthors());
