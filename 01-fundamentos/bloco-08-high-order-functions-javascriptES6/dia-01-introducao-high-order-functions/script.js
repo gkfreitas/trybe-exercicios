@@ -121,11 +121,20 @@ const books = [
 // }
 // console.log(authorBornIn1947());
 
-const expectedResult = 'Duna';
-const smallerName = () => {
-  let nameBook;
-  // escreva aqui o seu código
+// const expectedResult = 'Duna';
+// const smallerName = () => {
+//   let nameBook;
+//   let bookLength = books[0].name.length;
+//   // escreva aqui o seu código
+//   books.forEach((element) => {
+//     if(bookLength > element.name.length) {
+//       bookLength = element.name.length;
+//     }
+//   nameBook = books.find((element) => element.name.length === bookLength);
+//   });
+//   // Variável nameBook que receberá o valor do menor nome;
+//   return nameBook.name;
+// }
 
-  // Variável nameBook que receberá o valor do menor nome;
-  return nameBook;
-}
+// console.log(smallerName());
+
