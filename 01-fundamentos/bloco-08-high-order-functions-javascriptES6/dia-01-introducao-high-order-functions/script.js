@@ -167,6 +167,15 @@ const books = [
 
 // console.log((everyoneWasBornOnSecXX()));
 
-return books.every((element) => {
-  return element.author.birthYear > 1900;
-});
+
+
+// const expectedResult = true;
+
+// const someBookWasReleaseOnThe80s = () => {
+//   // escreva seu código aqui
+//   return books.some((element) => {
+//     return element.releaseYear > 1980;
+//   });
+// }
+
+// console.log((someBookWasReleaseOnThe80s()));
