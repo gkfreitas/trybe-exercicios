@@ -49,4 +49,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6.3 - CSS Flexbox - Parte 1
 - [X] 6.4 - CSS Flexbox - Parte 2
 - [X] 6.5 - CSS Responsivo - Mobile First
-- [ ] 6.6 - Projeto - Trybewarts
+- [X] 6.6 - Projeto - Trybewarts
+
+##### Bloco 7: Introdução á JavaScript
+
+- [X] 7.1 - Fluxo de exceções e manipulação de objetos
+- [X] 7.2 - Primeiros passos em Jest
+- [X] 7.3 - Matchers e cobertura de código
+- [X] 7.4 - Projeto - Javascript TEstes Unitários
+
+##### Bloco 8: High Order Functions do JavaScript ES6
+
+- [X] 8.1 - Introdução a High Order Functions
+- [X] 8.2 - High Order Functions - sort e map
+- [X] 8.3 - High Order Functions = filter e reduce
+- [ ] 8.4 - JavaScript ES6 - spread operator, rest parameters e object destructuring
+- [ ] 8.5 - JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters
+- [ ] 8.6 - Projeto - Zoo functions
