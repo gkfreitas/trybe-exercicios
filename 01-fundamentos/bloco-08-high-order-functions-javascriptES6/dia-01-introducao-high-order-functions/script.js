@@ -27,3 +27,23 @@
 // }
 
 // console.log(checkRandomNumber(5));
+
+// const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
+// const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
+
+// const compare = (rAnswers, sAnswers) => {
+//   const acertos = rAnswers.filter((element, index) => {
+//     return element === sAnswers[index];
+//   });
+//   const semResposta = sAnswers.filter((element) => {
+//     return element === 'N.A'
+//   });
+//   const erros = acertos.length - semResposta.length;
+//   const result = acertos.length - erros * 0.5;
+//   return `Total de pontos: ${result}`;
+// };
+
+// const checkAnswers = (rAnswers, sAnswers, callback) => {
+//   return callback(rAnswers,sAnswers);
+// }
+// console.log(checkAnswers(RIGHT_ANSWERS, STUDENT_ANSWERS, compare));
