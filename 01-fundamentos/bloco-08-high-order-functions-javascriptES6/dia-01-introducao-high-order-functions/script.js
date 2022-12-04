@@ -65,7 +65,7 @@ const books = [
     genre: 'Fantasia',
     author: {
       name: 'J. R. R. Tolkien',
-      birthYear: 1892,
+      birthYear: 1920,
     },
     releaseYear: 1954,
   },
@@ -179,3 +179,16 @@ const books = [
 // }
 
 // console.log((someBookWasReleaseOnThe80s()));
+
+const expectedResult = false;
+
+const authorUnique = () => {
+  // escreva seu código aqui
+  return books.every((book) =>{
+    return !books.some((bookSome) => {
+      return bookSome.author.birthYear === book.author.birthYear && bookSome.author.name !== book.author.name;
+    });
+  });
+}
+
+console.log(authorUnique());
