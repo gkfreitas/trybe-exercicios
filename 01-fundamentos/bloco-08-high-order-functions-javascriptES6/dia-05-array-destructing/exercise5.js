@@ -1,10 +1,5 @@
-const moreStudents = [
-  'Chris', 
-  ['Ahmad', 'Antigoni'], 
-  ['Toby', 'Sam']
-];
+const mutiply = (a, b = 1) => {
+  return a * b;
+}
 
-// Escreva seu código aqui
-const [student1, [student2, student3], [student4, student5]] = moreStudents;
-
-console.log(student1, student2, student3, student4, student5);
+console.log(mutiply(8, -1))
