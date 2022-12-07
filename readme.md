@@ -48,6 +48,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6.2 - Bibliotecas JavaScript e Frameworks CSS
 - [X] 6.3 - CSS Flexbox - Parte 1
 - [X] 6.4 - CSS Flexbox - Parte 2
+<<<<<<< HEAD
 - [X] 6.5 - CSS Responsivo - Mobile First
 - [X] 6.6 - Projeto - Trybewarts
 
@@ -66,3 +67,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 8.4 - JavaScript ES6 - spread operator, rest parameters e object destructuring
 - [ ] 8.5 - JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters
 - [ ] 8.6 - Projeto - Zoo functions
+=======
+- [ ] 6.5 - CSS Responsivo - Mobile First
+- [ ] 6.6 - Projeto - Trybewarts
+>>>>>>> main
