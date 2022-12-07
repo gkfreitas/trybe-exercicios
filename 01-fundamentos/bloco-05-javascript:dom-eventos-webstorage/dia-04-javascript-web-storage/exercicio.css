@@ -1,0 +1,44 @@
+header {
+  text-align: center;
+  border: 1px solid green;
+}
+
+.options {
+  padding: 5px 50px;
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+  vertical-align: middle;
+}
+
+.options p {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+.button button {
+  cursor: pointer;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+main h1 {
+  font-size: 16pt;
+}
+
+main h2 {
+  font-size: 12pt;
+}
