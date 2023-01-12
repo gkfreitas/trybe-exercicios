@@ -12,9 +12,10 @@ const usersSelect = document.querySelector('#users-select');
 
 const USERS_API = 'https://dummyjson.com/users';
 // faça a lógica para pegar as informações das pessoas usuárias e preencher o select aqui.
+let usersData;
 fetch(USERS_API)
   .then((response) => response.json())
-  .then((response) => console.log(response));
+  .then((data) => fillUsersSelect(data.users));
 
 usersSelect.addEventListener('change', () => {
   clearPageData();
