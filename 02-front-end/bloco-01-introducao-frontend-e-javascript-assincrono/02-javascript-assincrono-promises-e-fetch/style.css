@@ -18,11 +18,12 @@ main {
   align-items: center;
   justify-content: center;
 }
-.card-hero {
+#card-hero {
   margin: 20px 0;
-  background-color: gray;
   width: 30%;
   height: 300px;
+  background-image: url('https://www.superherodb.com/pictures2/portraits/10/100/85.jpg');
+  background-size: 100% 100%;
 }
 
 #raffle {
