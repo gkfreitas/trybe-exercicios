@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#board {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 2px 4px 16px 0px rgba(0,0,0,0.75);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+#board-image {
+  position: relative;
+  max-width: 1000px;
+  max-height: 700px;
+}
+
+#board-message {
+  min-width: 500px;
+  font-size: 20px;
+}
