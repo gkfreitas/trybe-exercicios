@@ -65,7 +65,7 @@ Esse repositório contém todos os exercícios resolvidos por mim [Gabriel Freit
 - [X] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
 - [X] 8.4 - JavaScript ES6 - Higher Order Functions - reduce
 - [X] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [X] 8.6 - [Projeto](https://github.com/tryber/sd-028-a-project-zoo-functions/tree/gabriel-freitas-sd-028-a-project-zoo-functions) - Zoo functions
+- [X] 8.6 - [Projeto](https://github.com/tryber/sd-028-a-project-zoo-functions/tree/gabriel-freitas-zoo-functions-project) - Zoo functions
 
 ## Módulo 02 - [Front-end]
 
