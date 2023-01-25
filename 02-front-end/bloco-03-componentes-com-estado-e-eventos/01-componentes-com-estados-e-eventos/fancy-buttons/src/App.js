@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 
+
 class App extends React.Component {
   
   constructor() {
@@ -14,24 +15,39 @@ class App extends React.Component {
   message () {
     console.log(this)
     console.log('Click');
+    this.setState((old, _props) => ({
+      message: old.message + 1
+    }));
   }
   
   message2 () {
     console.log(this)
     console.log('Click2');
+    this.setState((old, _props) => ({
+      message2: old.message2 + 2
+    }));
   }
   
   message3 () {
     console.log(this)
     console.log('Click3');
+    this.setState((old, _props) => ({
+      message3: old.message3 + 3
+    }));
+  }
+
+  state = {
+    message: 0,
+    message2: 0,
+    message3: 0
   }
 
   render() {
     return (
       <>
-        <button onClick={this.message}>Texto 1</button>
-        <button onClick={this.message2}>Texto 2</button>
-        <button onClick={this.message3}>Texto 3</button>
+        <button onClick={this.message}>{this.state.message}</button>
+        <button onClick={this.message2}>{this.state.message2}</button>
+        <button onClick={this.message3}>{this.state.message3}</button>
       </>
     );
   }
