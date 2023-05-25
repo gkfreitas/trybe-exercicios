@@ -1,6 +1,7 @@
 CREATE TABLE filme (
-  filme_id PRIMARY KEY INT AUTO_INCREMENT,
-  descricao NOT NULL VARCHAR(100),
-  ano_lancamento NOT NULL INT,
-  nota INT
+  filme_id INT NOT NULL AUTO_INCREMENT,
+  descricao VARCHAR(100) NOT NULL,
+  ano_lancamento INT NOT NULL,
+  nota INT,
+  PRIMARY KEY (filme_id)
 )
